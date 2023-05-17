@@ -9,10 +9,14 @@ There are 3 sub directories:
     build - this contains your makefile which will create the Fortran executable 
 
 Some basic UNIX commands to use in the terminal 
-cd run      this will open the folder run (if it exists) changing run to a different folder name will open a differnet folder
-cd ..       this will take you back one directory 
-ls          this will show you everything within the current folder
-pwd         this will print the current workign directory 
+    cd run      
+this will open the folder run (if it exists) changing run to a different folder name will open a differnet folder
+    cd ..       
+this will take you back one directory 
+    ls          
+this will show you everything within the current folder
+    pwd         
+this will print the current workign directory 
 
 
 src 
