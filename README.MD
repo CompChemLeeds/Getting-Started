@@ -1,6 +1,8 @@
 This is hopefully a useful set of examples that will get you started using Fortran and python to write a run script.
 I have included all the basic fortran ideas and you should be able to go through the source files and see how each function or
-subroutine works. I have included an example make file for use on both arc and your mac.
+subroutine works. I have included an example make file for use on both arc and your mac. To get this onto your own computer to play around with follow the directions given in 
+
+https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 There are 3 sub directories: 
     src - this contains all of your Fortran source code 
@@ -25,11 +27,17 @@ this will print the current workign directory
 
 
 src 
+
 The src directory contains 3 .f90 files 
-    main.f90 is your main program file and controls all the processes
-    module_example2.f90 is a Module file which contains some global variables and declares a defined type
-    module_example.f90 is another Module file which has a dependency on module_example2.f90. This module contains most 
-                        of the subroutines and functions the main program uses 
+
+        main.f90 
+   is your main program file and controls all the processes
+   
+    module_example2.f90
+  is a Module file which contains some global variables and declares a defined type
+    module_example.f90 
+  is another Module file which has a dependency on module_example2.f90. This module contains most 
+  of the subroutines and functions the main program uses 
 
 Some Fortran basics
 
