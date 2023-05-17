@@ -35,6 +35,7 @@ The src directory contains 3 .f90 files
    
     module_example2.f90
   is a Module file which contains some global variables and declares a defined type
+  
     module_example.f90 
   is another Module file which has a dependency on module_example2.f90. This module contains most 
   of the subroutines and functions the main program uses 
