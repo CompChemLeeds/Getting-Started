@@ -10,7 +10,7 @@ There are 3 sub directories:
           relevant execution folder
     build - this contains your makefile which will create the Fortran executable 
 
-Some basic UNIX commands to use in the terminal
+## Some basic UNIX commands to use in the terminal
 
     cd run      
 
@@ -26,7 +26,7 @@ this will show you everything within the current folder
 this will print the current workign directory 
 
 
-src 
+## src 
 
 The src directory contains 3 .f90 files 
 
@@ -40,7 +40,7 @@ The src directory contains 3 .f90 files
   is another Module file which has a dependency on module_example2.f90. This module contains most 
   of the subroutines and functions the main program uses 
 
-Some Fortran basics
+## Some Fortran basics
 
 All variables used in a program, subroutine or function need to be declared at the beginning of the routine.
 Variables must all have a type: 
@@ -70,13 +70,14 @@ Variables can have intent(in/out/inout) which tells the compiler how the variabl
 
 Functions in Fortran must have a declared type so an integer function outputs an integer a real function outputs a real. Subroutines take a set of inputs [or none] and then performs an operation or set of operations. A function will take some inputs and produce a result but will not alter the values of the inputs whereas a subroutine can/will alter values that are input.
 
-Python Control Scripts
+## Python Control Scripts
+
 I have included a python control script that sets up some random input files; checks some input values and then sets up the relevant execution folder. I have also included an example of how a submission script can be automatically written if/when you are submitting jobs to the arc high performance computer. This will not be relevant at first but I have included it for sake of completeness. 
 To run the python script put the terminal into the run folder then use the command 
 
     python run.py 
 
-Makefile
+## Makefile
 
 There are two makefiles one for your mac and another for arc. The control script selects the relevant makefile and then copies it to the file "Makefile" naming the file this allows your computer to recognise the file as a makefile and then allows the command
 
