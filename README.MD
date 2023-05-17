@@ -8,13 +8,18 @@ There are 3 sub directories:
           relevant execution folder
     build - this contains your makefile which will create the Fortran executable 
 
-Some basic UNIX commands to use in the terminal 
+Some basic UNIX commands to use in the terminal
+
     cd run      
+
 this will open the folder run (if it exists) changing run to a different folder name will open a differnet folder
+    
     cd ..       
 this will take you back one directory 
+
     ls          
 this will show you everything within the current folder
+
     pwd         
 this will print the current workign directory 
 
@@ -38,9 +43,17 @@ Variables must all have a type:
 * User declared type 
 
 Additionally, they can be declared as arrays: 
-dimension(10) 	sets up a 1D array of size ten
-dimension(:,:) 	a 2D array of assumed size 
-dimension(:,:,:),allocatable 	a 3D array which can be allocated later
+
+    dimension(10) 	
+sets up a 1D array of size ten
+
+    dimension(:,:) 	
+
+a 2D array of assumed size 
+
+    dimension(:,:,:),allocatable 	
+
+a 3D array which can be allocated later
 
 Generally it is best to allocate and deallocate arrays as this will ensure better memory management.
 
@@ -56,4 +69,10 @@ To run the python script put the terminal into the run folder then use the comma
 
 Makefile
 
-There are two makefiles one for your mac and another for arc. The control script selects the relevant makefile and then copies it to the file "Makefile" naming the file this allows your computer to recognise the file as a makefile and then allows the command "make" to be used which will build the executable file. The command "make clean" will clear all objects in the build folder. This is useful if there have been issues compiling code and you want to ensure all of your files are compiled correctly from your current save. the ".mod" files created are to be expected and will not be readable.
+There are two makefiles one for your mac and another for arc. The control script selects the relevant makefile and then copies it to the file "Makefile" naming the file this allows your computer to recognise the file as a makefile and then allows the command
+
+    make
+to be used which will build the executable file. The command 
+
+    make clean
+will clear all objects in the build folder. This is useful if there have been issues compiling code and you want to ensure all of your files are compiled correctly from your current save. the ".mod" files created are to be expected and will not be readable.
