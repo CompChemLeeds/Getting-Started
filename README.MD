@@ -22,7 +22,7 @@ The src directory contains 3 .f90 files
     module_example.f90 is another Module file which has a dependency on module_example2.f90. This module contains most 
                         of the subroutines and functions the main program uses 
 
-Some Fortran basics
+Some Fortran basics 
 
 All variables used in a program, subroutine or function need to be declared at the beginning of the routine.
 Variables must all have a type: 
