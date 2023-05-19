@@ -24,7 +24,7 @@ If you decided not to install Command Line Tools you could install git using Hom
 
 ### Configuration 
 
-We can now configure git but before you proceed make please make sure you have made your [GitHub account] (https://github.com/join). Once again in the terminal
+We can now configure git but before you proceed make please make sure you have made your [GitHub account](https://github.com/join). Once again in the terminal
 
     $ git config --global user.name 'UserName'
 Use your GitHub username this means all your commits will appear under this name
@@ -95,7 +95,7 @@ Run the command
 
     $ pbcopy < ~/.ssh/id_ed25519.pub    
 
-###### LINUX
+##### LINUX
 
 Run the command  
 
