@@ -127,8 +127,10 @@ PICTURE
 
 If the code already exists (at least in parts), it’s best to enter the directory for the code and make it a remote origin for the repository.
 
-PICTURE
-
+```
+git init 
+git remote add origin https://github.com/username/repository.git
+```
 If you have the ssh key installed, replace the url with the following: git@github.com:username/repo.git or use this in the command line
 git remote set-url origin git@github.com:username/repo.git
 Inside the directory there are 2 files, one to be uploaded and one to be ignored. This can be managed with the git add command.
