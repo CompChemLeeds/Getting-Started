@@ -106,11 +106,11 @@ Run the command
 
 On the settings page of your github account there is a tab for ‘SSH and GPG’ keys where you can find a green button for creating a new SSH key.
 
-PICTURE 
+![SSH keys](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/16653370-3f06-49a8-881c-2ff44612b6c6)
 
 Here you can simply paste the key copied into the box and give the key an appropriate name.
 
-PICTURE 
+![ssh form](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/46780bd9-b7ab-4be1-a84b-4b3bc518e388)
 
 You can got through this process on both your local machine and ARC meaning you can access your GitHub repositories on both systems.
 
@@ -155,18 +155,25 @@ Once the clone has been made the files can be edited and then commited to github
 
 There will be times where it is important to work on a codebase without affecting the original copy. For this, git has the ability to create branches of a repository, where you can edit and develop multiple ideas without having to maintain functionality across everything.
 
-PICTURE
+![Branches](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/1799710d-8498-4eb4-82a2-de7d80fce5a5)
+
 
 In the terminal you can use git checkout to create and swap between branches. The -b flag is needed to create a new branch and a handy flag is simply ‘-‘ which returns to the last branch used.
 
-PICTURE
+```
+git checkout -b Test
+git checkout main
+git checkout -
+```
 
 Separate branches require their own commits and pulls but are useful to test new ideas and maybe several at the same time. When the branch has completed its purpose and you want to apply the changes to the main branch, merge requests can be created within Github. Pull requests can be created via the pull request tab and clicking the green button for new request.
 
-PICTURE
+![Pull request](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/f15a5722-c6b5-45e2-ae74-fbcbfe17e258)
 
 The next step is to pick the two branches to be merged and ensure the differences noted are expected before submitted, where a label and a description needs to be given. It’s normal for a merge request to be approved by an admin of the repository before being carried through.
 
-PICTURE
 
+![Comparing changes](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/9df17414-ac47-4c1b-b719-c48ff605d151)
+
+![Pull request2](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/af1410fd-71cf-44d7-8c10-0aabca3a3207)
 
