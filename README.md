@@ -32,11 +32,9 @@ Use your GitHub username this means all your commits will appear under this name
     $ git config --global user.email 'your_email@example.com'
 Use the email you signed up to GitHub with
 
-    $ git config --global --list
-What does this do ?????
-
     $ git config --global --add --bool push.autoSetupRemote true
-And what does this do???
+This command is an optional part of the setup that makes creating a github repository from the command line easier. It's reccomend to instead follow the procedure laid out later in the guide.
+
 #### SSH Key Generation
 It’s very important that the username and email given here are the exact same as the username and password you’ve set for github. Next we need to set up a ssh key to grant GitHub access to your files and bypass having to give credentials every time. Open a new terminal and make sure you are in your home directory this is usally the defualt directory to open in if not enter the command 
 
