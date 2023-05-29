@@ -4,6 +4,10 @@ This is a short introduction to how we want to use, store and share work in the 
 
 ## Chapter 1: What is git and GitHub 
 
+Git is a very useful 'Version control system' that allows for the storage and organistion of changes made to files, and is capable of tracking all changes made to a directory/repository. Git also allows for easy collaboration, with each person capable of working on a local version of the repository before merging when ready to submit changes. Git also has a system to resolve conflicts from multiple users as well as rollback erroneous changes.
+
+Github is a web platform running on git that gives easier access, visualisation and management of git repositories. With a github account, git repositories can be hosted and shared and updated with attached descriptions and visible commit logs. Github also has the organisation feature which allows a group to collaborate across multiple projects. 
+
 ## Chapter 2: Set-up
 
 ### Instalation 
