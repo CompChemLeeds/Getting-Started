@@ -135,15 +135,19 @@ If you have the ssh key installed, replace the url with the following: git@githu
 git remote set-url origin git@github.com:username/repo.git
 Inside the directory there are 2 files, one to be uploaded and one to be ignored. This can be managed with the git add command.
 
-PICTURE
+```
+git add Readthis.txt
+```
 
 Git is now tracking the progress of the readthis file but will ignore/disregard changes to the dontreadthis file. In order to upload this then onto github the commit command is used to stage the files for uploading with a message to help organisation, before git push is used to complete the upload.
 
-PICTURE
+![terminal commit ](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/591929ac-108f-431a-943a-7ca86f160005)
+
 
 Returning to github, the first commit has been pushed to the repository online.
 
-PICTURE
+![Repository with commit](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/44739fc0-a573-406b-a29a-410b2d109f6a)
+
 
 The repository currently has only the files we wanted, the time at which each file was changed (the time of commit that changed each file) and the commit history where it is possible to view/restore old versions.
 If the repository currently exists online and you wish to create a remote repository, this can be done through the git clone command. The url to accompany this command can be found on the github page of the repository.
