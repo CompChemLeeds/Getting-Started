@@ -181,3 +181,10 @@ The next step is to pick the two branches to be merged and ensure the difference
 
 ![Pull request2](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/af1410fd-71cf-44d7-8c10-0aabca3a3207)
 
+## Chapter 4: Organisations
+
+GitHub Organisations provide a centralized and structured space for teams or research groups to collaborate on projects. It allows members to contribute to repositories, manage access privileges, and facilitate communication within the group. By creating an organization on GitHub, you establish a collective identity that represents your research group and serves as a hub for all your collaborative efforts.
+
+Through the use of Organisations, Members can work simultaneously on the same project, contribute code, propose changes, and review each other's work. can easily track changes made to projects, revert to previous versions, and branch out to experiment with new ideas without affecting the main codebase. This ensures that the group can maintain a reliable and organized history of their work. Inside the Organisation, members can be assigned different roles, such as administrators, collaborators, or viewers, depending on their level of involvement in the project. This ensures that sensitive information remains secure and that each member has appropriate permissions to contribute effectively. 
+
+
