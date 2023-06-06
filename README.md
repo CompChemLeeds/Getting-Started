@@ -180,10 +180,14 @@ The next step is to pick the two branches to be merged and ensure the difference
 
 ![Pull request2](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/af1410fd-71cf-44d7-8c10-0aabca3a3207)
 
+It is best practise to have a main branch and then use another branch to complete work on. This also applies to collaborative work where each person should have a seperate branch to work on to ensure there aren't conflicts.
+
 ## Chapter 4: Organisations
 
 GitHub Organisations provide a centralized and structured space for teams or research groups to collaborate on projects. It allows members to contribute to repositories, manage access privileges, and facilitate communication within the group. By creating an organization on GitHub, you establish a collective identity that represents your research group and serves as a hub for all your collaborative efforts.
 
 Through the use of Organisations, Members can work simultaneously on the same project, contribute code, propose changes, and review each other's work. can easily track changes made to projects, revert to previous versions, and branch out to experiment with new ideas without affecting the main codebase. This ensures that the group can maintain a reliable and organized history of their work. Inside the Organisation, members can be assigned different roles, such as administrators, collaborators, or viewers, depending on their level of involvement in the project. This ensures that sensitive information remains secure and that each member has appropriate permissions to contribute effectively. 
 
+### How to work in this group
 
+For project work within the group it is best practise to create a repository within the organisation that you then have access to through your personal account. This makes collaboration and branching much easier and adds a layer of protection incase something goes wrong! So if starting a new project a new organisation repository will be made with appropriate branches if joining an exisiting project you will be added to the project and given a new branch to work on. Once you've completed a bit of work on your branch you can then push it to the main branch other people working on their own work can then pull your changes to their branch or choose not to at all.
