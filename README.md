@@ -176,8 +176,7 @@ Separate branches require their own commits and pulls but are useful to test new
 
 The next step is to pick the two branches to be merged and ensure the differences noted are expected before submitted, where a label and a description needs to be given. It’s normal for a merge request to be approved by an admin of the repository before being carried through.
 
-
-![Comparing changes](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/9df17414-ac47-4c1b-b719-c48ff605d151)
+![Comparing changes](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/6d1092bc-eec9-433d-b6e4-56c3b40c7d53)
 
 ![Pull request2](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/af1410fd-71cf-44d7-8c10-0aabca3a3207)
 
