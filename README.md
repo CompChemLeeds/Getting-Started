@@ -150,9 +150,18 @@ Returning to github, the first commit has been pushed to the repository online.
 
 
 The repository currently has only the files we wanted, the time at which each file was changed (the time of commit that changed each file) and the commit history where it is possible to view/restore old versions.
-If the repository currently exists online and you wish to create a remote repository, this can be done through the git clone command. The url to accompany this command can be found on the github page of the repository.
-PICTURE
+If the repository currently exists online and you wish to create a remote repository, this can be done through the git clone command. The url to accompany this command can be found on the github page of the repository. Make a new directory where you want the repository to be saved
 
+    mkdir directory_name 
+then open the it
+
+    cd directory_name 
+    
+then run the command 
+
+    git clone https://github.com/REPOSITORY_NAME
+ using the url found on github.
+    
 Once the clone has been made the files can be edited and then commited to github once changes have been made. (It’s a good idea to do this very frequently, even when the changes are small). If a local repository is out of date, you can use ‘git pull’ to update the repository to the current version present on github.
 
 ### Branches
