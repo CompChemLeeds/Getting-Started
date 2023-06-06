@@ -150,7 +150,11 @@ Returning to github, the first commit has been pushed to the repository online.
 
 
 The repository currently has only the files we wanted, the time at which each file was changed (the time of commit that changed each file) and the commit history where it is possible to view/restore old versions.
+
 If the repository currently exists online and you wish to create a remote repository, this can be done through the git clone command. The url to accompany this command can be found on the github page of the repository. Run the command 
+
+![git clone](https://github.com/CompChemLeeds/Getting-Started/assets/92863384/090ccfb7-a0d7-4b76-bbc8-3b035c1e550c)
+
 
     git clone https://github.com/REPOSITORY_NAME
  using the url found on github.
